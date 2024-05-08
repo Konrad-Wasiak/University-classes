@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$USER_HOME$/PycharmProjects/2024-mgr-sluzba-cywilna/.idea/2024-mgr-sluzba-cywilna.iml" filepath="$USER_HOME$/PycharmProjects/2024-mgr-sluzba-cywilna/.idea/2024-mgr-sluzba-cywilna.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Advanced Python class.iml" filepath="$PROJECT_DIR$/.idea/Advanced Python class.iml" />
     </modules>
   </component>
