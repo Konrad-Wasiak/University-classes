@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d7e455a5-2a06-42fe-b21b-ab3abd8d810b" name="Changes" comment="New task: Z2">
-      <change beforePath="$PROJECT_DIR$/.idea/Advanced Python class.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Advanced Python class.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/24_04/Z1.py" beforeDir="false" afterPath="$PROJECT_DIR$/24_04/Z1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/24_04/Z2.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="Jupyter Notebook" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -146,7 +142,7 @@
       <workItem from="1715028225654" duration="3774000" />
       <workItem from="1715085790586" duration="2239000" />
       <workItem from="1715101412358" duration="2103000" />
-      <workItem from="1715169893685" duration="11165000" />
+      <workItem from="1715169893685" duration="14749000" />
     </task>
     <task id="LOCAL-00001" summary="Formatting">
       <option name="closed" value="true" />
@@ -191,11 +187,11 @@
     <SUITE FILE_PATH="coverage/Advanced_Python_class$2_15_03.coverage" NAME="2_15_03 Coverage Results" MODIFIED="1711129907617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/15_03" />
     <SUITE FILE_PATH="coverage/Advanced_Python_class$14_03_zadanie_3.coverage" NAME="14_03_zadanie_3 Coverage Results" MODIFIED="1710547477921" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Advanced_Python_class$Z2.coverage" NAME="Z2 Coverage Results" MODIFIED="1715189246583" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/24_04" />
-    <SUITE FILE_PATH="coverage/Advanced_Python_class$test.coverage" NAME="test Coverage Results" MODIFIED="1713101140593" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03_04" />
+    <SUITE FILE_PATH="coverage/Advanced_Python_class$test.coverage" NAME="test Coverage Results" MODIFIED="1715203816593" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/24_04" />
     <SUITE FILE_PATH="coverage/Advanced_Python_class$14_03_zadanie_2.coverage" NAME="14_03_zadanie_2 Coverage Results" MODIFIED="1710429458867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Advanced_Python_class$14_03_zadanie_4.coverage" NAME="14_03_zadanie_4 Coverage Results" MODIFIED="1710884791694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Advanced_Python_class$1_15_03.coverage" NAME="1_15_03 Coverage Results" MODIFIED="1710929601956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/15_03" />
-    <SUITE FILE_PATH="coverage/Advanced_Python_class$Z1.coverage" NAME="Z1 Coverage Results" MODIFIED="1715086179455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/24_04" />
+    <SUITE FILE_PATH="coverage/Advanced_Python_class$Z1.coverage" NAME="Z1 Coverage Results" MODIFIED="1715203254944" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/24_04" />
     <SUITE FILE_PATH="coverage/Advanced_Python_class$Z3.coverage" NAME="Z3 Coverage Results" MODIFIED="1715029275021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/24_04" />
   </component>
 </project>

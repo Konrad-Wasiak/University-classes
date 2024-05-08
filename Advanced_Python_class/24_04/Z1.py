@@ -2,6 +2,8 @@ import requests
 import json
 import pandas as pd
 import mplfinance as mpl
+
+
 def get_candles_data(interval: int, limit: int):
     url = ('https://www.mexc.com/open/api/v2/market/kline?symbol=ARBUZ_USDT&interval=' +
            str(interval) + 'm&limit=' + str(limit))
@@ -39,6 +41,7 @@ def plot_candles(formatted_candles_data):
         mav=(3, 6, 9)  # atrybut który włączy automatyczne obliczanie oraz rysowanie średni kroczących.
     )
 
+
 # A function responsible for finding a similar pattern to the one occurring in the last 10 candles,
 # in the range of 1,000 candles.
 def find_similar_candles():
@@ -52,9 +55,9 @@ def find_similar_candles():
 
     # Comparing candles with their right-side neighbours;
     # omitting the last candle, since it has no neighbours on the right.
-    for candle_index in range(0,9):
+    for candle_index in range(0, 9):
         variation = last_ten_candles[candle_index]["open"] - last_ten_candles[candle_index]["close"]
-        variation_neighbour = last_ten_candles[candle_index+1]["open"] - last_ten_candles[candle_index+1]["close"]
+        variation_neighbour = last_ten_candles[candle_index + 1]["open"] - last_ten_candles[candle_index + 1]["close"]
         neighbour_candles_difference = variation - variation_neighbour
         last_10_candles_difference_list.append(neighbour_candles_difference)
 
@@ -67,24 +70,23 @@ def find_similar_candles():
     # List storing groups of 10 candles, to compare these groups later with the last 10 from the whole 1,000.
     groups_of_10_candles = []
 
-    # 99 times * 10 candles
-    for candle_group_index in range(1, 100):
+    # Finding all possible groups of 10 neighbouring candles.
+    for candle_index in range(0, 989):
         group_of_10_candles = []
 
-        for candle_index in range(0, 9):
+        for group in range(0, 9):
             variation = (
-                (formatted_candles_data[candle_index*candle_group_index]["open"] -
-                 formatted_candles_data[candle_index*candle_group_index]["close"])
+                (formatted_candles_data[candle_index]["open"] -
+                 formatted_candles_data[candle_index]["close"])
             )
             variation_neighbour = (
-                (formatted_candles_data[(candle_index*candle_group_index)+1]["open"] -
-                 formatted_candles_data[(candle_index*candle_group_index)+1]["close"])
+                (formatted_candles_data[candle_index + 1]["open"] -
+                 formatted_candles_data[candle_index + 1]["close"])
             )
             neighbouring_candles_difference = abs(variation - variation_neighbour)
             group_of_10_candles.append(neighbouring_candles_difference)
 
         groups_of_10_candles.append(group_of_10_candles)
-
 
     # A list storing these differences between a group of 10 candles and the last 10 downloaded candles.
     differences_between_candle_groups = []
@@ -115,8 +117,8 @@ def find_similar_candles():
 
     # Calculating the indices of the corresponding elements in formatted_candles_data, to access other variables
     # not stored in the lists created by me later.
-    start_index = min_difference_index * 10
-    end_index = min_difference_index * 10 + 10
+    start_index = min_difference_index
+    end_index = min_difference_index + 10
 
     # Variable storing candles with a similar pattern to this of the last 10 downloaded candles.
     similar_candles = formatted_candles_data[start_index:end_index]
@@ -124,5 +126,6 @@ def find_similar_candles():
     # Plotting charts.
     plot_candles(last_ten_candles)
     plot_candles(similar_candles)
+
 
 find_similar_candles()
